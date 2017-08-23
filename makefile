@@ -10,7 +10,5 @@ auto :
 list :
 		gcc -D LIST ${SOURCES} -o ${TARGET}
 
-gdb :
-		gcc -g ${SOURCES} -o ${TARGET}
 clean :
 			rm ${TARGET}
